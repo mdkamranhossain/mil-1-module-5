@@ -13,7 +13,7 @@ body{
 .btn{
     border-radius: 8px;
     background: rgb(82, 195, 3);
-    padding: 21px 32px 21px 32px;
+    padding: 21px 28px 21px 28px;
     border: none;
     padding: 21px 32px 21px 32px;
     color: rgb(255, 255, 255);
@@ -67,4 +67,147 @@ section{
     font-weight: 500;
     opacity: 0.7;
     margin: 16px 0px;
+}
+
+
+/* Card Section */
+
+.full-card-sec{
+    display: flex;
+    justify-content: center;
+    margin: 170px 0px;
+    text-align: center;
+}
+
+.card-title-sec p{
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.card-title-sec h2{
+    font-size: 48px;    
+    font-weight: 700px;
+    color: rgb(16, 16, 16);
+    width: 690px;
+    margin: auto;
+    margin-bottom: 48px;
+}
+.card-sec{
+    width: 1320px;
+}
+
+
+.main-card{
+    display: flex;
+    gap: 24px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.card img{
+    width: 424px;
+    border-radius: 16px;
+}
+
+.card h4{
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    width: 140px;
+    padding: 10px 0px;
+    margin: auto;
+}
+
+.card h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.card p{
+    opacity: 0.7;
+    color: rgb(16, 16, 16);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+
+/* About us */
+
+.about-us-section{
+}
+
+.about-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-left{
+    width: 100%;
+}
+
+.about-right{
+    text-align: center;
+    width: 100%;
+}
+
+.about-right h2{
+    width: 805px;
+    color: rgb(16, 16, 16);
+    font-size: 48px;
+    font-weight: 700;
+    margin: auto;
+}
+
+.about-right p{
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+    font-size: 24px;
+    margin: 48px 0px;
+}
+
+.about-right h4{
+    padding: 30px 10px;
+    opacity: 0.7;
+    color: rgb(16, 16, 16);
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.about-social-icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    gap: 32px;
+}
+
+.about-social-icon li{
+    list-style: none;
+}
+
+.about-social-icon li a img{
+    width: 40px;
+}
+
+
+/* social section */
+
+.social{
+    height: 671px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(assets/image\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 140px;
 }
